@@ -1,52 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergency Service</title>
-    <!-- Tailwind css and daisyui cdn links -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-    <!-- Font Awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <title>Document</title>
 </head>
+<body>
+    <div class="w-full h-[820px] bg-white rounded-xl shadow p-4 ">
+                <!-- Header -->
+                <div class="flex justify-between items-center mb-4">
+                    <div class="flex items-center gap-2">
+                        <span class="text-gray-700 font-medium">Call History</span>
+                    </div>
+                    <button
+                        class="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">Clear</button>
+                </div>
 
-<body class="bg-[#f5fff6] ">
-    <!-- navBer Section  -->
-    <div class="navbar h-[100px] shadow-sm">
-        <div class="flex-1 flex p-4">
-            <img src="./assets/logo.png" alt="logo" class="w-[50px] h-[50px] rounded-full mx-4">
-            <h1 class="text-xl font-extrabold text-[#006747]">Emergency <br> Service</h1>
-        </div>
-        <div class="flex-none mx-4 ">
-            <button class="btn bg-[#41FF6B1A] rounded-[20px] p-[20px]"><i class="fa-solid fa-heart"
-                    style="color: red;"></i></button>
-            <button class="btn bg-[#41FF6B1A] rounded-[20px] p-[20px]"><i class="fa-brands fa-galactic-republic"
-                    style="color: #FB8500;"></i></button>
-            <button class="btn bg-[#00A63E] rounded-[20px] p-[20px]">Copy</button>
-        </div>
-    </div>
-    <!-- navBer Section End -->
-    <!-- Banner Section Start -->
-    <div
-        class="border justify-center items-center text-center p-4 bg-[linear-gradient(90deg,#013223_15%,#006747_50%,#013223_100%)] ">
-        <div class="flex justify-center items-center"><img class="w-[92px] h-[92px]" src="./assets/logo-dark.png"
-                alt="Emergency Service Banner"></div>
-        <h1 class="text-xl font-extrabold text-white">
-            Emergency Service Directory
-        </h1>
-        <p class="text-white">
-            Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
-            Bangladesh
-        </p>
-    </div>
-    <!-- Banner Section End -->
-    <!-- Card section start -->
-    <div class="flex p-4">
-        <div class="left grid grid-cols-3 gap-4 p-4  w-[70%]">
+                <!-- Call List -->
+                <div class="space-y-3">
+                    <!-- Single Item -->
+                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
+                        <div>
+                            <p class="text-gray-800 font-medium">Fire Service Number</p>
+                            <p class="text-gray-500 text-sm">999</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
+                    </div>
+
+                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
+                        <div>
+                            <p class="text-gray-800 font-medium">National Emergency Number</p>
+                            <p class="text-gray-500 text-sm">1994-999999</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
+                    </div>
+
+                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
+                        <div>
+                            <p class="text-gray-800 font-medium">Fire Service Number</p>
+                            <p class="text-gray-500 text-sm">999</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
+                    </div>
+
+                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
+                        <div>
+                            <p class="text-gray-800 font-medium">Bangladesh Railway Helpline</p>
+                            <p class="text-gray-500 text-sm">999</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
+                    </div>
+
+                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
+                        <div>
+                            <p class="text-gray-800 font-medium">Fire Service Number</p>
+                            <p class="text-gray-500 text-sm">999</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
+                    </div>
+
+                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
+                        <div>
+                            <p class="text-gray-800 font-medium">Anti-Corruption Helpline</p>
+                            <p class="text-gray-500 text-sm">999</p>
+                        </div>
+                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
+                    </div>
+                </div>
+            </div>
+
+    <div class="left grid grid-cols-3 gap-4 p-4  h-auto w-2/3">
             <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
                 <!-- Icon -->
                 <div class="flex justify-between items-start">
@@ -232,73 +255,6 @@
             </div>
 
 
-        </div>
-        <div class="right  p-4  w-[30%]">
-            <div class="w-full h-[820px] bg-white rounded-xl shadow p-4 ">
-                <!-- Header -->
-                <div class="flex justify-between items-center mb-4">
-                    <div class="flex items-center gap-2">
-                        <span class="text-gray-700 font-medium">Call History</span>
-                    </div>
-                    <button
-                        class="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">Clear</button>
-                </div>
-
-                <!-- Call List -->
-                <div class="space-y-3">
-                    <!-- Single Item -->
-                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
-                        <div>
-                            <p class="text-gray-800 font-medium">Fire Service Number</p>
-                            <p class="text-gray-500 text-sm">999</p>
-                        </div>
-                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
-                    </div>
-
-                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
-                        <div>
-                            <p class="text-gray-800 font-medium">National Emergency Number</p>
-                            <p class="text-gray-500 text-sm">1994-999999</p>
-                        </div>
-                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
-                    </div>
-
-                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
-                        <div>
-                            <p class="text-gray-800 font-medium">Fire Service Number</p>
-                            <p class="text-gray-500 text-sm">999</p>
-                        </div>
-                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
-                    </div>
-
-                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
-                        <div>
-                            <p class="text-gray-800 font-medium">Bangladesh Railway Helpline</p>
-                            <p class="text-gray-500 text-sm">999</p>
-                        </div>
-                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
-                    </div>
-
-                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
-                        <div>
-                            <p class="text-gray-800 font-medium">Fire Service Number</p>
-                            <p class="text-gray-500 text-sm">999</p>
-                        </div>
-                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
-                    </div>
-
-                    <div class="flex justify-between items-center bg-gray-50 rounded-lg p-3">
-                        <div>
-                            <p class="text-gray-800 font-medium">Anti-Corruption Helpline</p>
-                            <p class="text-gray-500 text-sm">999</p>
-                        </div>
-                        <span class="text-gray-400 text-sm">11:36:58 AM</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+        </div>        
 </body>
-
 </html>
