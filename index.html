@@ -30,7 +30,7 @@
             <div class="btn bg-[#00A63E] rounded-[20px] p-[20px]"> <span id="copyCount">0</span> Copy</div>
         </div>
     </div>
-    <!-- navBer Section End -->
+
     <!-- Banner Section Start -->
     <div
         class="border justify-center items-center text-center p-4 bg-[linear-gradient(90deg,#013223_15%,#006747_50%,#013223_100%)] ">
@@ -44,227 +44,245 @@
             Bangladesh
         </p>
     </div>
-    <!-- Banner Section End -->
-    <!-- Card section start -->
+
+    <!-- Card section -->
     <div class="flex flex-col sm:flex-row p-4">
 
-        
-            <!-- Service Card -->
-            <div class="left grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 p-4 flex-[7] sm:w-1/2 mx-auto">
-                <div class="w-64 bg-white rounded-2xl shadow p-4">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">N</h2>
-                    <p class="text-gray-600">N</p>
-                    <p class="font-bold text-2xl mt-2">9</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">A</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('999')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button onclick="makeCall('National Emergency Number', '1994-999999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
-                </div>
 
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/police.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
+        <!-- Service Card -->
+        <div class="left grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 p-4 flex-[7] sm:w-1/2 mx-auto">
+            <div class="w-64 bg-white rounded-2xl shadow p-4">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
                     </div>
-                    <h2 class="font-bold text-xl mt-2">P</h2>
-                    <p class="text-gray-600">P</p>
-                    <p class="font-bold text-2xl mt-2">9</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">P</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('999')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"> <i class="fa-regular fa-copy"></i>Copy</button>
-                        <button onclick="makeCall('Police', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
                 </div>
-
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/fire-service.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">Fire Service Number</h2>
-                    <p class="text-gray-600">Fire Service</p>
-                    <p class="font-bold text-2xl mt-2">999</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">Fire</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('999')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button onclick="makeCall('Fire Service', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
+                <h2 class="font-bold text-xl mt-2">N</h2>
+                <p class="text-gray-600">N</p>
+                <p class="font-bold text-2xl mt-2">9</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">A</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('999')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('National Emergency Number', '1994-999999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
                 </div>
-
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">A</h2>
-                    <p class="text-gray-600">A</p>
-                    <p class="font-bold text-2xl mt-2">1</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">H</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('1')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button onclick="makeCall('Anti-Corruption Helpline', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
-                </div>
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">w</h2>
-                    <p class="text-gray-600">w</p>
-                    <p class="font-bold text-2xl mt-2">1</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">H</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('1')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button onclick="makeCall('w', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
-                </div>
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">A</h2>
-                    <p class="text-gray-600">A</p>
-                    <p class="font-bold text-2xl mt-2">1</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">G</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('1')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button onclick="makeCall('Anti-Corruption Helpline', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
-                </div>
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">E</h2>
-                    <p class="text-gray-600">E</p>
-                    <p class="font-bold text-2xl mt-2">1</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">E</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('1')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button onclick="makeCall('Emergency', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
-                </div>
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">B</h2>
-                    <p class="text-gray-600">B</p>
-                    <p class="font-bold text-2xl mt-2">1</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">N</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('1')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button onclick="makeCall('Bangladesh Railway Helpline', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
-                </div>
-                <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
-                    <!-- Icon -->
-                    <div class="flex justify-between items-start">
-                        <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
-                            <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
-                        </div>
-                        <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
-                            <i class="fa-regular fa-heart"></i>
-                        </button>
-                    </div>
-                    <h2 class="font-bold text-xl mt-2">B</h2>
-                    <p class="text-gray-600">B</p>
-                    <p class="font-bold text-2xl mt-2">1</p>
-                    <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">T</span>
-                    <div class="flex gap-2 mt-4">
-                        <button onclick="copyNumber('1')"
-                            class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button onclick="makeCall('Bangladesh Railway Helpline', '999')"
-                            class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">Call</button>
-                    </div>
-                </div>
-
-
             </div>
 
-            <!-- call history section -->
-            <div class="right flex-[3] p-4">
-                <div class="w-full  h-[820px] bg-white rounded-xl shadow p-4 ">
-                    <!-- Header -->
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="flex items-center gap-2">
-                            <i class="fa-regular fa-clock"></i>
-                            <span class="text-gray-700 font-medium">Call History</span>
-                        </div>
-                        <button onclick="clearHistory()"
-                            class="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">Clear</button>
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/police.png" class="w-6 h-6" alt="icon">
                     </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">P</h2>
+                <p class="text-gray-600">P</p>
+                <p class="font-bold text-2xl mt-2">9</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">P</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('999')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"> <i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('Police', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
 
-                    <ul id="callHistory" class="space-y-2 text-sm text-gray-700"></ul>
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/fire-service.png" class="w-6 h-6" alt="icon">
+                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">Fire Service Number</h2>
+                <p class="text-gray-600">Fire Service</p>
+                <p class="font-bold text-2xl mt-2">999</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">Fire</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('999')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('Fire Service', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"> </i> Call</button>
+                </div>
+            </div>
+
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
+                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">A</h2>
+                <p class="text-gray-600">A</p>
+                <p class="font-bold text-2xl mt-2">1</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">H</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('1')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('Anti-Corruption Helpline', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
+                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">w</h2>
+                <p class="text-gray-600">w</p>
+                <p class="font-bold text-2xl mt-2">1</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">H</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('1')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('w', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
+                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">A</h2>
+                <p class="text-gray-600">A</p>
+                <p class="font-bold text-2xl mt-2">1</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">G</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('1')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('Anti-Corruption Helpline', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
+                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">E</h2>
+                <p class="text-gray-600">E</p>
+                <p class="font-bold text-2xl mt-2">1</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">E</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('1')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('Emergency', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
+                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">B</h2>
+                <p class="text-gray-600">B</p>
+                <p class="font-bold text-2xl mt-2">1</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">N</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('1')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('Bangladesh Railway Helpline', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="w-64 bg-white rounded-2xl shadow p-4 relative">
+                <!-- Icon -->
+                <div class="flex justify-between items-start">
+                    <div class="w-10 h-10 bg-pink-100 flex items-center justify-center rounded-md">
+                        <img src="./assets/emergency.png" class="w-6 h-6" alt="icon">
+                    </div>
+                    <button onclick="increaseHeart(this)" class="text-gray-400 hover:text-red-500">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+                <h2 class="font-bold text-xl mt-2">B</h2>
+                <p class="text-gray-600">B</p>
+                <p class="font-bold text-2xl mt-2">1</p>
+                <span class="inline-block bg-gray-100 rounded-full px-2 py-1 text-sm mt-1">T</span>
+                <div class="flex gap-2 mt-4">
+                    <button onclick="copyNumber('1')"
+                        class="flex-1 border border-gray-300 rounded-lg py-2 text-gray-700 hover:bg-gray-100"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button onclick="makeCall('Bangladesh Railway Helpline', '999')"
+                        class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"> <i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- call history section -->
+        <div class="right flex-[3] p-4">
+            <div class="w-full  h-[820px] bg-white rounded-xl shadow p-4 ">
+                <!-- Header -->
+                <div class="flex justify-between items-center mb-4">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-regular fa-clock"></i>
+                        <span class="text-gray-700 font-medium">Call History</span>
+                    </div>
+                    <button onclick="clearHistory()"
+                        class="bg-green-500 hover:bg-green-600 text-white text-sm px-4 py-1 rounded-full">Clear</button>
                 </div>
 
+                <ul id="callHistory" class="space-y-2 text-sm text-gray-700"></ul>
             </div>
-        
+
+        </div>
+
     </div>
 
     <script>
